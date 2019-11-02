@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--metadata goes in head-->
+    <title>HTML FORMS </title>
+
+</head>
+
+<body>
+    <!--content goes in body-->
+    <h1> Register!</h1>
+    <form action="">
+        <div>
+            <label for="firstname">First name:</label>
+            <input id="firstname" name="firstname" placeholder="John" type="text" required>
+            <label for="lastname">Last name:</label>
+            <input id="lastname" name="lastname" placeholder="Smith" type="text" required>
+            
+        </div>
+        <div>
+            <label for="sex_male">Male </label>
+            <input id="sex_male" name="gender" value="male" type="radio">
+            <label for="sex_female">Female </label>
+            <input id="sex_female" name="gender" value="female" type="radio">
+            <label for="sex_other">Other </label>
+            <input id="sex_other" name="gender" value="other" type="radio">
+        </div>
+        <diV>
+            <label for="email">Email:</label>
+            <input id="email" name="email" placeholder="Email" type="email" required>
+            <label for="password">Password:</label>
+            <input id="password" name="password" placeholder="placeholder" type="password" required minlength="5" maxlength="10">
+        </diV>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input id="birthday" name="birthday" type="date">
+        </div>
+        <div>
+            <label for="tandc">I agree to the terms and conditions</label>
+            <input id="tandc" name="tandc" type="checkbox" required>
+        </div>
+        <div>
+            <input id="submit" type="submit">
+        </div>
+
+    </form>
+</body>
+
+</html>
